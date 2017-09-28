@@ -7,7 +7,7 @@ Clone the repo:
 ```
 git clone https://github.com/osfpu/g.git
 ```
-Add the following in your ~/.bashrc (.zshrc): *ATTENTION : change path with yours*
+Add the following in your ~/.bashrc (.zshrc): **ATTENTION : Change path with yours**
 ```
 export G_HOME=path/to/g
 ```
@@ -45,9 +45,11 @@ source ~/.bachrc
 
 ## USAGE
 
+```
 g -r || --remove [dir name]
 g --clear
 g -l || --list
 g -h || --help
+```
 
 ## LICENSE
