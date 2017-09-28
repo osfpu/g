@@ -1,4 +1,4 @@
-# g - Goto directories quickly in a expected way
+# g - Goto directories quickly with a record.
 
 ## DESCRIPTION
 
