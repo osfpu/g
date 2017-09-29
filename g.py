@@ -62,6 +62,8 @@ def goto(target):
     records = read()
     if records.has_key(target):
         print(records[target])
+    else:
+        print(target)
 
 def clear():
     os.remove(path_record_file_path)
