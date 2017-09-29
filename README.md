@@ -1,12 +1,12 @@
 # g - Goto directories quickly with a record.
 
-## DESCRIPTION
+## Description
 It's boring when switching between different directories, especially with long path. This tool can release you by giving your path a nickname or a number.
 
 ## Requirement
 You need install python 
 
-## INSTALL
+## Install
 1. Clone the repo:
 ```
 git clone https://github.com/osfpu/g.git
