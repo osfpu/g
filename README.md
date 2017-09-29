@@ -1,17 +1,21 @@
-# g - Goto directories quickly in a expected way
+# g - Goto directories quickly with a record.
 
 ## DESCRIPTION
+It's boring when switching between different directories, especially with long path. This tool can release you by giving your path a nickname or a number.
+
+## Requirement
+You need install python 
 
 ## INSTALL
-Clone the repo:
+1. Clone the repo:
 ```
 git clone https://github.com/osfpu/g.git
 ```
-Add the following in your ~/.bashrc (.zshrc): *ATTENTION : change path with yours*
+2. Add the following in your ~/.bashrc (.zshrc): **ATTENTION : Change path with yours**
 ```
 export G_HOME=path/to/g
 ```
-Also add the following in your ~/.bashrc (.zshrc):
+3. Also add the following in your ~/.bashrc (.zshrc):
 ```
 alias goto=${G_HOME}/g.py
 g () {
@@ -38,16 +42,29 @@ g () {
     fi
 }
 ```
-Reload the change:
+4. Reload the change:
 ```
 source ~/.bachrc
 ```
 
-## USAGE
+## User Case
 
-g -r || --remove [dir name]
-g --clear
-g -l || --list
-g -h || --help
+1. Goto a directory you want to record. For example `cd /etc`.
+2. Add a alias name for your current path. Use `g -a 1` to add alias name "1" to current path. 
+3. Use `g -l` to view all Record.
+4. Use `g 1` whenever you want to goto `/etc`.
+5. Use `g -r 1` to delete the record.
+
+## Usage
+```
+    g [option] [value]
+        -h or --help
+        -l or --list        List all records.
+        -r or --remove      Remove a record by key.
+        -a or --add         Add a record to your current path. For example, use
+                            `g -a 1` record the current path and you can use
+                            `g 1` go back the path next time.
+        --clear             Remove all records.
+```
 
 ## LICENSE
