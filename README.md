@@ -68,3 +68,5 @@ source ~/.bachrc
 ```
 
 ## LICENSE
+
+[MIT](https://github.com/osfpu/g/blob/master/LICENSE)
