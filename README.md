@@ -4,7 +4,7 @@
 It's boring when switching between different directories, especially with long path. This tool can release you by giving your path a nickname or a number.
 
 ## Requirement
-You need install python 
+You need install python
 
 ## Install
 1. Clone the repo:
@@ -47,10 +47,12 @@ g () {
 source ~/.bachrc
 ```
 
+5. Open a new terminal
+
 ## User Case
 
 1. Goto a directory you want to record. For example `cd /etc`.
-2. Add a alias name for your current path. Use `g -a 1` to add alias name "1" to current path. 
+2. Add a alias name for your current path. Use `g -a 1` to add alias name "1" to current path.
 3. Use `g -l` to view all Record.
 4. Use `g 1` whenever you want to goto `/etc`.
 5. Use `g -r 1` to delete the record.
