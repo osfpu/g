@@ -67,6 +67,12 @@ source ~/.bachrc
         --clear             Remove all records.
 ```
 
-## LICENSE
+## Something You Need Know
+
+1. If you use oh-my-zsh, please comment `plugins=(git)`. If you use git plugin, alias `g` will be in conflict！
+
+2. You can edit `~/path_record_file.json` where all your records saved.
+
+## License
 
 [MIT](https://github.com/osfpu/g/blob/master/LICENSE)
