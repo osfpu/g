@@ -47,7 +47,7 @@ g () {
 source ~/.bachrc
 ```
 
-5. Open a new terminal
+5. Open a new terminal, enter `g --help` and you can see help information if the installation was successful.
 
 ## User Case
 
