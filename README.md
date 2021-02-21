@@ -3,7 +3,7 @@
 ## Description
 It's boring when switching between different directories, especially with long path. This tool can release you by giving your path a nickname or a number.
 
-![image](https://blog.osfpu.com/images/G_Flow.gif)
+![image](https://blog.osfpu.com/images/G_Flow.gif?v=1)
 
 ## Requirement
 You need install python
