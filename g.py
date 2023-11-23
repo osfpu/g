@@ -60,7 +60,7 @@ def add(target):
 
 def goto(target):
     records = read()
-    if records.has_key(target):
+    if target in records.keys():
         print(records[target])
     else:
         print(target)
